@@ -1,0 +1,351 @@
+*{
+    display: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 1px red solid;
+}
+
+body{
+    width: 99%;
+    height: 80vh;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 20px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+
+#navbar li:hover{
+    color:#4ABF50;
+    text-decoration: underline;
+}
+
+#header img{
+   width: 150px;
+   height: 90px;
+   padding: 35px;
+}
+
+#diffbar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 18px;
+}
+
+#diffbar li{
+    list-style: none;
+    padding: 7px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+#diffbar .material-symbols-outlined{
+    padding-left: 15px;
+    
+}
+
+button{
+    font-size: 18px;
+    background-color: #4ABF50;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: 70px;
+    border: none;
+    padding: 10px;
+}
+
+
+#middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.Go{
+    font-size: 25px;
+    height: 65vh;
+    width: 320px;
+    text-align: start;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #14B5E1;
+}
+
+#border li{
+    padding: 5px;
+    list-style: none;
+    font-size: 18px;
+}
+
+.Eat{
+    font-size: 25px;
+    height: 65vh;
+    width: 320px;
+    text-align: start;
+    padding: 65px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #84A975;
+}
+
+
+#border li{
+    padding: 5px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.Get{
+    font-size: 25px;
+    height: 65vh;
+    width: 320px;
+    text-align: start;
+    padding: 1px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #CC85FF;
+}
+
+.Pay{
+    font-size: 25px;
+    height: 65vh;
+    width: 320px;
+    text-align: start;
+    padding: 65px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #223858;
+}
+
+#banner{
+    width: 100%;
+    display: flex;
+    background-image: url(soft\ green.png);
+    background-size: cover;
+    height: 200px;
+    background-position: cover;
+    border-radius: 15px;
+    flex-direction: column;
+    padding: 40px;
+    cursor: pointer;
+    padding-right: 40PX;
+    margin-top: 70px;
+}
+
+#banner img{
+    width: 280px;
+    height: 120px;
+    padding: 10px;
+}
+
+#banner p{
+    color: #fff;
+    font-size: 20px;
+}
+
+#about{
+    display: flex;
+    padding-left: 100px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+#about h2{
+    font-size: 30px;
+    justify-content: center;
+}
+
+#about button{
+    font-size: 10px;
+    background-color: #4ABF50;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: 20px;
+    border: none;
+    padding: 10px;
+    margin: 15px;
+    width: 70px;
+}
+
+#cap{
+    display: flex;
+    padding-left: 100px;
+    background-color: #4ABF50;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 3px;
+    margin-top: 70px;
+}
+
+#cap h4{
+    font-size: 30px;
+    justify-content: flex-end;
+    
+}
+#cap button{
+    font-size: 10px;
+    background-color: #fff;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: 20px;
+    border: none;
+    padding: 10px;
+    margin: 15px;
+    width: 70px;
+}
+
+
+#engine{
+    display: flex;
+    padding-left: 100px;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    margin-top: 70px;    
+}
+
+#engine button{
+    font-size: 10px;
+    background-color: #4ABF50;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: 20px;
+    border: none;
+    padding: 10px;
+    margin: 15px;
+    width: 70px;
+}
+
+#engine h4{
+    font-size: 30px;
+    justify-content: center;
+}
+
+#social{
+    display: flex;
+    padding-left: 78px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+#social button{
+    font-size: 10px;
+    background-color: #4ABF50;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: 20px;
+    border: none;
+    padding: 10px;
+    margin: 15px;
+    width: 70px;
+}
+
+#social h4{
+    font-size: 30px;
+    justify-content: center;
+}
+
+#blog{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #4ABF50;
+    font-size: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+h6{
+    font-size: 20px;
+}
+
+
+.blogging button{
+background-color: #fff;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    cursor: pointer;
+    padding:80px;
+}
+
+footer .lastSec{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .lastSec h4{
+    justify-content: center;
+    font-size: 20px;
+}
+
+footer h4{
+    padding-bottom: 20px;
+    font-size: 14px;
+    color: #0F310C;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #222;
+    padding: 10px;
+}
+
+footer a:hover{
+    color: #46CF3A;
+
+}
+
+#Foot{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+#Foot li{
+    list-style: none;
+    padding: 7px;
+    position: relative;
+    cursor: pointer;
+}
+
+#Foot .material-symbols-outlined{
+    padding-left: 15px;
+    
+}
